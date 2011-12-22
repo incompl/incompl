@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'title';
+    src: url('../fonts/DEFTONE.ttf');
+}
+
+@font-face {
+    font-family: 'header';
+    src: url('../fonts/OSP-DIN.ttf');
+}
+
+@font-face {
+    font-family: 'body';
+    src: url('../fonts/luxisr.ttf');
+}
+
+body {
+  background-color: black;
+  background-image: url('../images/incomplbg.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  font-family: 'body';
+  color: #eaeaea;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  color: #eaeaea;
+  background-color: #00442e;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 black;
+  padding: 0 1px 1px;
+}
+
+a:visited {
+  color: #eaeaea;
+  background-color: #363636;
+}
+
+a:active {
+  background-color: black;
+  color: white;
+}
+
+a:hover {
+  background-color: #00885d;
+  color: white;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+  font-family: 'header';
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin: 0;
+  padding: .5em 0 0;
+  font-family: 'header';
+  font-weight: normal;
+}
+
+header {
+  height: 167px;
+  margin: 57px 0 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 5em;
+  font-family: 'title';
+}
+
+header h2 {
+  color: #b5ffe7;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 2px 2px 0 black;
+  padding: 12px 0 0;
+}
+
+header a:link, header a:visited {
+  color: #3effc2;
+  background-color: transparent;
+  text-shadow: 5px 5px 0 black;
+}
+
+#contentWrapper {
+  background-color: black;
+}
+
+#content {
+  padding: 1em;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#content section {
+  clear: both;
+}
+
+#content img {
+  float: left;
+  margin: 0 1em 1em 0;
+  width: 200px;
+  border: solid black 2px;
+}
+
+#content a img {
+  border-color: #00442e;
+}
+
+#content a img:hover {
+  border-color: #00885d;
+}
+
+#content p {
+  margin: .5em 0;
+}
+
+#content aside {
+  float: right;
+  width: 130px;
+  height: 180px;
+  padding: 10px;
+  margin: 0 0 0 1em;
+  text-align: right;
+  font-size: 1.2em;
+}
+
+#content aside ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#content aside ul li {
+  margin: 0 0 .5em 0;
+}
+
+section section {
+  margin: 1em;
+}
+
+.project h1 {
+  padding: 1em 0 0;
+  height: 1em;
+  overflow: hidden;
+}
+
+.project h1 a {
+  text-shadow: 2px 2px 0 black;
+}
+
+.project h2 {
+  font-family: body;
+  padding: .5em 0 2px;
+}
+
+footer {
+  text-align: center;
+  background-color: #0f0f0f;
+  color: #4d4d4d;
+  padding: 0 0 2px;
+}
+
+footer a:link, footer a:visited {
+  background-color: #0f0f0f;
+  color: #4d4d4d;
+  background-color: transparent;
+}
+
+footer a:hover {
+  color: white;
+  background-color: black;
+}
+
+#contact {
+  display: none;
+}

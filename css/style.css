@@ -26,7 +26,7 @@ body {
 
 a:link {
   color: #eaeaea;
-  background-color: #00442e;
+  background-color: #004345;
   text-decoration: none;
   text-shadow: 1px 1px 0 black;
   padding: 0 1px 1px;
@@ -43,7 +43,7 @@ a:active {
 }
 
 a:hover {
-  background-color: #00885d;
+  background-color: #00877C;
   color: white;
 }
 
@@ -77,14 +77,14 @@ header h2 {
   color: #b5ffe7;
   text-align: center;
   font-size: 2em;
-  text-shadow: 2px 2px 0 black;
+  text-shadow: 2px 2px 0 #3B3B3B;
   padding: 12px 0 0;
 }
 
 header a:link, header a:visited {
   color: #3effc2;
   background-color: transparent;
-  text-shadow: 5px 5px 0 black;
+  text-shadow: 3px 3px 0 #3B3B3B;
 }
 
 #contentWrapper {
@@ -105,15 +105,15 @@ header a:link, header a:visited {
   float: left;
   margin: 0 1em 1em 0;
   width: 200px;
-  border: solid black 2px;
+  border: solid black 3px;
 }
 
 #content a img {
-  border-color: #00442e;
+  
 }
 
 #content a img:hover {
-  border-color: #00885d;
+  border-color: #00877C;
 }
 
 #content p {
@@ -173,7 +173,7 @@ footer a:link, footer a:visited {
 }
 
 footer a:hover {
-  color: white;
+  color: #eaeaea;
   background-color: black;
 }
 

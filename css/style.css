@@ -101,18 +101,25 @@ header a:link, header a:visited {
   clear: both;
 }
 
-#content img {
+#content figure {
   float: left;
   margin: 0 1em 1em 0;
+}
+
+#content figure a {
+  background-color: transparent;
+}
+
+#content figure img {
   width: 200px;
   border: solid black 3px;
 }
 
-#content a img {
-  
+#content figure a img {
+  border-color: #004345;
 }
 
-#content a img:hover {
+#content figure a img:hover {
   border-color: #00877C;
 }
 

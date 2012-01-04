@@ -84,7 +84,7 @@ header h2 {
 header a:link, header a:visited {
   color: #3effc2;
   background-color: transparent;
-  text-shadow: 3px 3px 0 #272727;
+  text-shadow: 3px 3px 0 #3B3B3B;
 }
 
 #contentWrapper {

@@ -142,7 +142,7 @@ header a:link, header a:visited {
 
 #content aside {
   float: right;
-  width: 100px;
+  width: 75px;
   height: 180px;
   padding: 10px;
   margin: 0 0 0 1em;
@@ -170,7 +170,7 @@ section section {
 
 .project h1 {
   padding: .8em 0 0;
-  margin: 0 0 .5em;
+  margin: 0 0 .3em;
   height: 1em;
   overflow: hidden;
 }
@@ -193,7 +193,7 @@ footer {
 
 footer a:link, footer a:visited {
   background-color: #0f0f0f;
-  color: #4d4d4d;
+  color: #616161;
   background-color: transparent;
 }
 
@@ -213,7 +213,8 @@ footer a:hover {
   }
 
   .project h1 {
-    padding: 3px 0 .1em;
+    padding: 3px 0 0;
+    margin: 0 0 .3em;
   }
 }
 

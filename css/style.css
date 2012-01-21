@@ -1,16 +1,24 @@
 @font-face {
-    font-family: 'title';
-    src: url('../fonts/DEFTONE.ttf');
+  font-family: 'title';
+  src: url('../fonts/DEFTONE.ttf');
 }
 
 @font-face {
-    font-family: 'header';
-    src: url('../fonts/OSP-DIN.ttf');
+  font-family: 'header';
+  src: url('../fonts/OSP-DIN.ttf');
 }
 
 @font-face {
-    font-family: 'body';
-    src: url('../fonts/luxisr.ttf');
+  font-family: 'body';
+  src: url('../fonts/luxisr.ttf');
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 body {
@@ -49,7 +57,7 @@ a:hover {
 
 h1 {
   font-size: 2em;
-  margin: 0;
+  margin: 0 0 .5em;
   font-family: 'header';
   font-weight: normal;
 }
@@ -68,6 +76,7 @@ header {
 }
 
 header h1 {
+  margin: 0;
   text-align: center;
   font-size: 5em;
   font-family: 'title';
@@ -103,7 +112,7 @@ header a:link, header a:visited {
 
 #content figure {
   float: left;
-  margin: 0 1em 1em 0;
+  margin: 0 1em 0 0;
 }
 
 #content figure a {
@@ -113,6 +122,10 @@ header a:link, header a:visited {
 #content figure img {
   width: 200px;
   border: solid black 3px;
+}
+
+#content figure#me img {
+  width: 282px;
 }
 
 #content figure a img {
@@ -129,7 +142,7 @@ header a:link, header a:visited {
 
 #content aside {
   float: right;
-  width: 130px;
+  width: 100px;
   height: 180px;
   padding: 10px;
   margin: 0 0 0 1em;
@@ -151,8 +164,13 @@ section section {
   margin: 1em;
 }
 
+#bio, .project {
+  margin: 0 0 1em;
+}
+
 .project h1 {
-  padding: 1em 0 0;
+  padding: .8em 0 0;
+  margin: 0 0 .5em;
   height: 1em;
   overflow: hidden;
 }
@@ -163,7 +181,7 @@ section section {
 
 .project h2 {
   font-family: body;
-  padding: .5em 0 2px;
+  padding: 0 0 2px;
 }
 
 footer {
@@ -186,4 +204,21 @@ footer a:hover {
 
 #contact {
   display: none;
+}
+
+
+@media screen and (max-width: 640px) {
+  #content figure#me {
+    display: none;
+  }
+
+  .project h1 {
+    padding: 3px 0 .1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #content figure img {
+    width: 100px;
+  }
 }

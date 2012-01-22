@@ -125,7 +125,7 @@ header a:link, header a:visited {
 }
 
 #content figure#me img {
-  width: 282px;
+  width: 260px;
 }
 
 #content figure a img {
@@ -188,7 +188,7 @@ footer {
   text-align: center;
   background-color: #0f0f0f;
   color: #4d4d4d;
-  padding: 0 0 2px;
+  padding: 1px 0 3px;
 }
 
 footer a:link, footer a:visited {

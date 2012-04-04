@@ -124,16 +124,13 @@ header a:link, header a:visited {
   border: solid black 3px;
 }
 
-#content figure#me img {
-  width: 260px;
-}
-
 #content figure a img {
-  border-color: #004345;
+  border-color: black;
 }
 
 #content figure a img:hover {
   border-color: #00877C;
+  border-radius: 3px;
 }
 
 #content p {

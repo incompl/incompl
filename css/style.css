@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'header';
-  src: url('../fonts/OSP-DIN.ttf');
+  src: url('../fonts/luxisr.ttf');
 }
 
 @font-face {
@@ -23,9 +23,6 @@
 
 body {
   background-color: black;
-  background-image: url('../images/incomplbg.jpg');
-  background-position: top center;
-  background-repeat: no-repeat;
   font-family: 'body';
   color: #eaeaea;
   margin: 0;
@@ -33,11 +30,7 @@ body {
 }
 
 a:link {
-  color: #eaeaea;
-  background-color: #004345;
-  text-decoration: none;
-  text-shadow: 1px 1px 0 black;
-  padding: 0 1px 1px;
+  color: white;
 }
 
 a:visited {
@@ -51,13 +44,13 @@ a:active {
 }
 
 a:hover {
-  background-color: #00877C;
+  background-color: #7F2C01;
   color: white;
+  text-shadow: 1px 1px 0 black;
 }
 
 h1 {
   font-size: 2em;
-  margin: 0 0 .5em;
   font-family: 'header';
   font-weight: normal;
 }
@@ -71,38 +64,46 @@ h2 {
 }
 
 header {
-  height: 167px;
-  margin: 57px 0 0;
+  height: 250px;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  background-image: url('../images/mebg.jpg');
+  background-position: 0px -250px;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 header h1 {
-  margin: 0;
-  text-align: center;
-  font-size: 5em;
+  margin: 0 70px 0 0;
+  padding: 30px 0 0;
+  text-align: right;
+  font-size: 4em;
   font-family: 'title';
 }
 
 header h2 {
-  color: #b5ffe7;
-  text-align: center;
-  font-size: 2em;
-  text-shadow: 2px 2px 0 #3B3B3B;
+  color: white;
+  text-align: right;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 0 black;
   padding: 12px 0 0;
 }
 
 header a:link, header a:visited {
-  color: #3effc2;
+  color: white;
   background-color: transparent;
-  text-shadow: 3px 3px 0 #3B3B3B;
+  text-shadow: 2px 2px 0 rgba(0,0,0,.2);
+  text-decoration: none;
 }
 
 #contentWrapper {
-  background-color: black;
+  background-color: rgba(0, 0, 0, .8);
 }
 
 #content {
   padding: 1em;
-  max-width: 900px;
+  max-width: 640px;
   margin: 0 auto;
 }
 
@@ -120,8 +121,13 @@ header a:link, header a:visited {
 }
 
 #content figure img {
-  width: 200px;
+  width: 160px;
   border: solid black 3px;
+  -webkit-transform: matrix(1,-0.192,0,1,0,0);
+  -moz-transform: matrix(1,-0.192,0,1,0px,0px);
+  -ms-transform: matrix(1,-0.192,0,1,0,0);
+  -o-transform: matrix(1,-0.192,0,1,0,0);
+  transform: matrix(1,-0.192,0,1,0,0);
 }
 
 #content figure a img {
@@ -140,8 +146,8 @@ header a:link, header a:visited {
 #content aside {
   float: right;
   width: 75px;
-  height: 180px;
-  padding: 10px;
+  height: 120px;
+  padding: 0 10px;
   margin: 0 0 0 1em;
   text-align: right;
   font-size: 1.2em;
@@ -166,17 +172,19 @@ section section {
 }
 
 .project h1 {
+  font-size: 1.5em;
   padding: .8em 0 0;
-  margin: 0 0 .3em;
+  margin: 0 0 .5em;
   height: 1em;
-  overflow: hidden;
 }
 
 .project h1 a {
   text-shadow: 2px 2px 0 black;
+  text-decoration: none;
 }
 
 .project h2 {
+  font-size: 1.1em;
   font-family: body;
   padding: 0 0 2px;
 }
@@ -205,13 +213,22 @@ footer a:hover {
 
 
 @media screen and (max-width: 640px) {
-  #content figure#me {
-    display: none;
+  header {
+    height: 100px;
+    text-align: center;
+  }
+
+  header h1 {
+    padding: 15px 0 0 0;
   }
 
   .project h1 {
     padding: 3px 0 0;
     margin: 0 0 .3em;
+  }
+
+  #content figure img {
+    width: 130px;
   }
 }
 

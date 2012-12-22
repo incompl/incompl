@@ -23,6 +23,8 @@
 
 body {
   background-color: black;
+  background-image: url('../images/snow.gif');
+  background-repeat: repeat;
   font-family: 'body';
   color: #eaeaea;
   margin: 0;
@@ -97,14 +99,11 @@ header a:link, header a:visited {
   text-decoration: none;
 }
 
-#contentWrapper {
-  background-color: rgba(0, 0, 0, .8);
-}
-
 #content {
   padding: 1em;
   max-width: 640px;
   margin: 0 auto;
+  background-color: rgba(0, 0, 0, .75);
 }
 
 #content section {
@@ -168,14 +167,13 @@ section section {
 }
 
 #bio, .project {
-  margin: 0 0 1em;
+  margin: 0 0 2em;
 }
 
 .project h1 {
   font-size: 1.5em;
-  padding: .8em 0 0;
+  padding: 0;
   margin: 0 0 .5em;
-  height: 1em;
 }
 
 .project h1 a {

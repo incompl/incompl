@@ -10,8 +10,8 @@
   contact.innerHTML = email;
   contact.href = "mailto:" + email;
 
-  window.onresize = function(event) {
-    document.getElementById("circles").style.display = "none";
-  }
+  // window.onresize = function(event) {
+  //   document.getElementById("circles").style.display = "none";
+  // }
 
 })();

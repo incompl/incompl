@@ -1,140 +1,160 @@
 <!doctype html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>incompl - greg smith vs. the internet</title>
 	<meta name="description" content="Personal blog of web developer Greg Smith">
 	<meta name="keywords" content="JavaScript">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/kube.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" type="image/png" href="images/favicon.png"/>
 </head>
 <body>
+
   <header>
-    <h1><a href="/">happy holidays</a></h1>
-    <!-- <h2>greg smith vs. the internet</h2> -->
+    <h1><a href="/">incompl</a></h1>
+    <h2>greg smith vs. the internet</h2>
   </header>
-  <div id="contentWrapper">
-    <div id="content">
 
-      <section id="bio" class="clearfix">
-        <aside>
-          <ul>
-            <li><a href="http://twitter.com/_gsmith">twitter</a></li>
-            <li><a href="https://github.com/incompl">github</a></li>
-            <li><a href="http://training.bocoup.com/">training</a></li>
-            <li><a href="http://blog.incompl.com">blog</a></li>
-          </ul>
-        </aside>
-        <p>I'm Greg, a front-end guy at <a href="http://bocoup.com">Bocoup</a>
-           where I do consulting, training, and plenty of open-source hacking.
-           I like to design games, build tools, and make the web awesome.
-        </p>
-        <p>
-          Here are a couple articles I've written recently:
-          <ul>
-            <li><a href="http://buildnewgames.com/js-game-code-org/">JavaScript Game Code Organization</a>
-            <li><a href="http://weblog.bocoup.com/dive-into-flexbox/">Dive into Flexbox</a>
-            <li><a href="http://blog.incompl.com/2012/10/20/complextro.html">The Evolution of EDM: Complextro</a>
-            <li><a href="http://webadvertisingisbroken.com/">The Web Advertising Book of Evil</a>
-          </ul>
-        </p>
+  <div id="content">
+
+    <section id="bio">
+
+      <img id="me" src="http://gravatar.com/avatar/e2dcc901ef0796244281908ad395a03d?s=280">
+
+      <section id="about">
+        I'm Greg, a front-end guy at <a href="http://bocoup.com">Bocoup</a> where I do consulting, training, and plenty of open-source hacking. I like to design games, build tools, and make the web awesome.
       </section>
 
-      <section class="project clearfix">
-        <figure>
-          <a href="http://learnlayout.com">
-            <img src="images/projects/learnlayout.png">
-          </a>
-        </figure>
-        <h1><a href="http://learnlayout.com">Learn CSS Layout</a></h1>
-        <h2>Learning and Reference Resource</h2>
-        <p>Authors need a mastery of CSS's awkward underpinnings. While many learning sites preach specific techniques, <em>Learn CSS Layout</em> starts with the seedy underbelly of CSS in a way that can teach beginners and clarify for experts.
-        </p>
-      </section>
-            
-      <section class="project clearfix">
-        <figure>
-          <a href="http://startcontinue.com">
-            <img src="images/projects/91.png">
-          </a>
-        </figure>
-        <h1><a href="http://startcontinue.com">91</a></h1>
-        <h2>A New Old RPG</h2>
-        <p>91 is a <a href="http://www.kickstarter.com/projects/gregsmith/91-a-new-old-rpg">Kickstarter</a>
-          -funded RPG that combines old-school gameplay with modern design sensibilities. It takes
-          inspiration from games such as <a href="http://en.wikipedia.org/wiki/Rogue_(video_game)">Rogue</a>,
-          <a href="http://en.wikipedia.org/wiki/EarthBound">EarthBound</a>,
-          and <a href="http://en.wikipedia.org/wiki/The_Legend_of_Zelda">Legend of Zelda</a>.
-        </p>
-      </section>
-      
-      <section class="project clearfix">
-        <figure>
-          <a href="http://incompl.github.com/boxbox">
-            <img src="images/projects/boxbox.png">
-          </a>
-        </figure>
-        <h1><a href="http://incompl.github.com/boxbox">boxbox</a></h1>
-        <h2>JavaScript Physics Made Easy</h2>  
-        <p>boxbox is a framework that makes it easy for JavaScript applications to
-           use the <a href="http://box2d.org/">box2d</a>
-           physics engine. It contains intuitive APIs,
-           new abstractions, and canvas rendering.
-        </p>
-      </section>
-      
-      <section class="project clearfix">  
-        <figure>
-          <a href="http://letterbrush.com">
-            <img src="images/projects/letterbrush.png">
-          </a>
-        </figure>
-        <h1><a href="http://letterbrush.com">LetterBrush</a></h1>
-        <h2>Text Editor for Drawing</h2>
-        <p>LetterBrush grew out of a tool I use for game development. It lets
-           you edit text files with drawing tools such as lines and flood fill.
-           Great for anyone developing <a href="http://en.wikipedia.org/wiki/Roguelike">Roguelikes</a>.
-        </p>
+      <section id="links">
+        <h1>Links</h1>
+        <ul>
+          <li><a href="http://twitter.com/_gsmith">twitter</a></li>
+          <li><a href="https://github.com/incompl">github</a></li>
+          <li><a href="http://training.bocoup.com/">training</a></li>
+          <li><a href="http://blog.incompl.com">blog</a></li>
+        </ul>
       </section>
 
-      <section class="project clearfix">
-        <figure>
-          <a href="http://dusk.incompl.com">
-            <img src="images/projects/dusk.png">
-          </a>
-        </figure>
-        <h1><a href="http://dusk.incompl.com">Dusk</a></h1>
-        <h2>An Interactive Fiction Murder Mystery</h2>
-        <p>A new game I wrote in a couple weeks to explore
-           the idea of an <a href="http://en.wikipedia.org/wiki/Interactive_fiction">IF</a> murder mystery.
-           It's very laid-back and takes about an hour to play,
-           so check it out!
-        </p>
+      <section id="articles">
+        <h1>Recent articles</h1>
+        <ul>
+          <li><a href="http://buildnewgames.com/js-game-code-org/">JS Game Code Organization</a>
+          <li><a href="http://weblog.bocoup.com/dive-into-flexbox/">Dive into Flexbox</a>
+          <li><a href="http://blog.incompl.com/2012/10/20/complextro.html">The Evolution of EDM: Complextro</a>
+          <li><a href="http://webadvertisingisbroken.com/">Web Advertising Book of Evil</a>
+        </ul>
       </section>
+    </section>
 
-      <section class="project clearfix">
-        <figure>
-          <a href="http://akelon.net">
-            <img src="images/projects/akelon.png">
-          </a>
-        </figure>
-        <h1><a href="http://akelon.net">Akelon</a></h1>
-        <h2>DJ Mixes</h2>
-        <p>I'm a big fan of electronic music, especially
-           <a href="http://en.wikipedia.org/wiki/Tech_house">tech house</a>,
-           <a href="http://en.wikipedia.org/wiki/Minimal_techno">minimal techno</a>,
-           and <a href="http://en.wikipedia.org/wiki/Microhouse">microhouse</a>.
-           A couple of my DJ sets are
-           (<a href="http://support.mixcloud.com/customer/portal/articles/157244-is-mixcloud-licensed-to-play-copyrighted-music-">legally!</a>)
-           available on
-           <a href="http://www.mixcloud.com/akelon/">Mixcloud</a>.
-        </p>
-      </section>
-      
-      <section id="more">
-        <h1>More Projects</h1>
+    <div id="projects">
+
+      <div class="project-group">
+
+        <section class="project">
         
+          <figure>
+            <a href="http://learnlayout.com">
+              <img src="images/projects/learnlayout.png">
+            </a>
+          </figure>
+          <h1><a href="http://learnlayout.com">Learn CSS Layout</a></h1>
+          <h2>Learning and Reference Resource</h2>
+          <p>Authors need a mastery of CSS's awkward underpinnings. While many learning sites preach specific techniques, <em>Learn CSS Layout</em> starts with the seedy underbelly of CSS in a way that can teach beginners and clarify for experts.
+          </p>
+        </section>
+              
+        <section class="project">
+          <figure>
+            <a href="http://startcontinue.com">
+              <img src="images/projects/91.png">
+            </a>
+          </figure>
+          <h1><a href="http://startcontinue.com">91</a></h1>
+          <h2>A New Old RPG</h2>
+          <p>91 is a <a href="http://www.kickstarter.com/projects/gregsmith/91-a-new-old-rpg">Kickstarter</a>
+            -funded RPG that combines old-school gameplay with modern design sensibilities. It takes
+            inspiration from games such as <a href="http://en.wikipedia.org/wiki/Rogue_(video_game)">Rogue</a>,
+            <a href="http://en.wikipedia.org/wiki/EarthBound">EarthBound</a>,
+            and <a href="http://en.wikipedia.org/wiki/The_Legend_of_Zelda">Legend of Zelda</a>.
+          </p>
+        </section>
+        
+        <section class="project">
+          <figure>
+            <a href="http://incompl.github.com/boxbox">
+              <img src="images/projects/boxbox.png">
+            </a>
+          </figure>
+          <h1><a href="http://incompl.github.com/boxbox">boxbox</a></h1>
+          <h2>JavaScript Physics Made Easy</h2>  
+          <p>boxbox is a framework that makes it easy for JavaScript applications to
+             use the <a href="http://box2d.org/">box2d</a>
+             physics engine. It contains intuitive APIs,
+             new abstractions, and canvas rendering.
+          </p>
+        </section>
+
+      </div>
+      <div class="project-group">
+      
+        <section class="project">  
+          <figure>
+            <a href="http://letterbrush.com">
+              <img src="images/projects/letterbrush.png">
+            </a>
+          </figure>
+          <h1><a href="http://letterbrush.com">LetterBrush</a></h1>
+          <h2>Text Editor for Drawing</h2>
+          <p>LetterBrush grew out of a tool I use for game development. It lets
+             you edit text files with drawing tools such as lines and flood fill.
+             Great for anyone developing <a href="http://en.wikipedia.org/wiki/Roguelike">Roguelikes</a>.
+          </p>
+        </section>
+
+        <section class="project">
+          <figure>
+            <a href="http://dusk.incompl.com">
+              <img src="images/projects/dusk.png">
+            </a>
+          </figure>
+          <h1><a href="http://dusk.incompl.com">Dusk</a></h1>
+          <h2>An Interactive Fiction Murder Mystery</h2>
+          <p>A new game I wrote in a couple weeks to explore
+             the idea of an <a href="http://en.wikipedia.org/wiki/Interactive_fiction">IF</a> murder mystery.
+             It's very laid-back and takes about an hour to play,
+             so check it out!
+          </p>
+        </section>
+
+        <section class="project">
+          <figure>
+            <a href="http://akelon.net">
+              <img src="images/projects/akelon.png">
+            </a>
+          </figure>
+          <h1><a href="http://akelon.net">Akelon</a></h1>
+          <h2>DJ Mixes</h2>
+          <p>I'm a big fan of electronic music, especially
+             <a href="http://en.wikipedia.org/wiki/Tech_house">tech house</a>,
+             <a href="http://en.wikipedia.org/wiki/Minimal_techno">minimal techno</a>,
+             and <a href="http://en.wikipedia.org/wiki/Microhouse">microhouse</a>.
+             A couple of my DJ sets are
+             (<a href="http://support.mixcloud.com/customer/portal/articles/157244-is-mixcloud-licensed-to-play-copyrighted-music-">legally!</a>)
+             available on
+             <a href="http://www.mixcloud.com/akelon/">Mixcloud</a>.
+          </p>
+        </section>
+
+      </div>
+
+    </div>
+    
+    <section id="more">
+      <h1>More Projects</h1>
+
+      <div id="more-projects">
+      
         <section class="project">
           <a href="http://jsregex.com">jsregex</a> a popular regex tester with
           big text areas.
@@ -160,18 +180,17 @@
           <a href="http://scornbird.com/">ScornBird</a> a Twitter hall-of-shame
           and <a href="http://favstar.fm">favstar</a> parody.
         </section>
-        
-      </section>
-      
-    </div>
-    
-    <footer>
-      <a id="contact"></a>
-    </footer>
 
+      </div>
+      
+    </section>
+    
   </div>
   
-  <script src="js/modernizr.js"></script>
+  <footer>
+    <a id="contact"></a>
+  </footer>
+  
   <script src="js/app.js"></script>
   <script>
     var _gaq = _gaq || [];

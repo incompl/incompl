@@ -36,7 +36,7 @@ header a {
 }
 
 header a:hover {
-  color: rgb(245, 220, 228);
+  color: rgb(255, 237, 243);
   background-color: transparent;
 }
 
@@ -109,7 +109,7 @@ section h2 {
 }
 
 #projects h1 {
-  margin: 1em 0 0 0;
+  margin: .5em 0 0 0;
 }
 
 #projects h1 a {
@@ -191,6 +191,10 @@ footer a:hover {
 
   #projects {
     padding: 1em 0;
+  }
+
+  #projects h1 {
+    margin: 1em 0 0 0;
   }
 
   .project-group {

@@ -19,26 +19,30 @@ a:hover {
   background-color: #4C2600;
 }
 
+h1, h2 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: normal;
+}
+
 header {
   text-align: center;
   margin: 1em 0 1em;
 }
 
 header a {
-  color: #EADADF;
+  color: rgb(255, 237, 243);
   text-decoration: none;
   text-shadow: 2px 2px 0 #E5255F;
 }
 
 header a:hover {
-  color: #EADADF;
+  color: rgb(245, 220, 228);
   background-color: transparent;
 }
 
 header h1 {
   font-family: 'title';
   font-size: 5em;
-  font-weight: normal;
   margin: .1em 0 .2em;
 }
 
@@ -46,7 +50,7 @@ header h2 {
   font-size: 1.6em;
   margin: 0 0 1em 0;
   text-shadow: 2px 2px 0 black;
-  color: #EADADF;
+  color: rgb(245, 220, 228);
 }
 
 section h1 {
@@ -54,7 +58,8 @@ section h1 {
 }
 
 section h2 {
-  font-size: 1.4em;
+  font-size: 1.1em;
+  font-weight: normal;
 }
 
 #content-wrapper {
@@ -74,7 +79,7 @@ section h2 {
 }
 
 #bio h1 {
-  color: #EADADF;
+  color: rgb(245, 220, 228);
 }
 
 #about {
@@ -103,6 +108,18 @@ section h2 {
   background-color: #E2B0AA;
 }
 
+#projects h1 {
+  margin: 1em 0 0 0;
+}
+
+#projects h1 a {
+  text-decoration: none;
+}
+
+#projects h2 {
+  margin: .5em 0;
+}
+
 .project {
   overflow: auto;
 }
@@ -114,9 +131,8 @@ section h2 {
 .project img {
   max-width: 25%;
   float: left;
-  background-color: black;
   margin: 0 1em 1em 0;
-  border: solid #aaa 2px;
+  border: solid transparent 3px;
 }
 
 .project a:hover img {
@@ -136,9 +152,10 @@ section h2 {
 }
 
 footer {
-  padding: .5em 0;
+  padding: .3em 0;
   text-align: center;
   background-color: black;
+  margin: 0 0 .8em 0;
 }
 
 footer a {

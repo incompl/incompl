@@ -93,9 +93,20 @@ section h2 {
   margin: 0 0 1em 1em;
 }
 
+#links a {
+  color: #ccc;
+  text-shadow: 1px 1px 0 #E5255F;
+  text-decoration: none;
+  font-size: 2.5em;
+}
+
+#links i {
+  margin: .1em .1em .3em .2em;
+}
+
 #projects {
   overflow: auto;
-  background-color: #ddd;
+  background-color: #ccc;
   color: #222;
   padding: 1em;
 }
@@ -180,13 +191,13 @@ footer a:hover {
     float: left;
   }
 
-  #links {
-    margin: 0 4% 0 0;
-    max-width: 18%;
-  }
-
   #articles {
     max-width: 35%;
+  }
+
+  #links {
+    margin: 0 0 0 4%;
+    max-width: 18%;
   }
 
   #projects {

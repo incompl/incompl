@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-  color: #D08E4D;
+  color: #EAB682;
   background-color: #4C2600;
 }
 
@@ -100,6 +100,12 @@ section h2 {
   font-size: 2.5em;
 }
 
+#links a:hover {
+  color: #E54676;
+  background-color: transparent;
+  text-shadow: 1px 1px 0 #FF6997;
+}
+
 #links i {
   margin: .1em .1em .3em .2em;
 }
@@ -116,6 +122,7 @@ section h2 {
 }
 
 #projects a:hover {
+  color: #5C1007;
   background-color: #E2B0AA;
 }
 
@@ -144,10 +151,11 @@ section h2 {
   float: left;
   margin: 0 1em 1em 0;
   border: solid transparent 3px;
+  border-radius: 50%;
 }
 
 .project a:hover img {
-  border-color: #E27C70;
+  border-color: #E27070;
 }
 
 .project p {
@@ -196,8 +204,9 @@ footer a:hover {
   }
 
   #links {
-    margin: 0 0 0 4%;
+    margin: 2em 0 0 4%;
     max-width: 18%;
+    text-align: right;
   }
 
   #projects {

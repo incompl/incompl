@@ -1,0 +1,7 @@
+{
+  "name": "incompl",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-ftp-deploy": "git://github.com/incompl/grunt-ftp-deploy.git#master"
+  }
+}

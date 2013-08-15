@@ -8,8 +8,7 @@ module.exports = function(grunt) {
       build: {
         auth: {
           host: 'startcontinue.com',
-          port: 21,
-          authKey: 'key1'
+          port: 21
         },
         src: '.',
         dest: 'incompl',

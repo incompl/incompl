@@ -14,9 +14,8 @@ module.exports = function(grunt) {
         dest: 'incompl',
         exclusions: ['Gruntfile.js',
                      'package.json',
-                     '.git',
-                     'node_modules',
-                     '.gitignore']
+                     '.git*',
+                     'node_modules']
       }
     }
   });

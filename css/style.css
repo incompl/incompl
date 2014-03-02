@@ -1,12 +1,13 @@
 @font-face {
   font-family: 'title';
-  src: url('../fonts/DEFTONE.ttf');
+  src: url('../fonts/Laconic_Regular.otf');
 }
 
 body {
   background-color: #111;
+  background-image: url('../images/bg.png');
+  background-position: 0 -32px;
   color: #ccc;
-  margin: 0 1em;
   font-size: 14px;
 }
 
@@ -26,7 +27,7 @@ h1, h2 {
 
 header {
   text-align: center;
-  margin: 1em 0 1em;
+  margin: 1.7em 0;
 }
 
 header a {
@@ -42,12 +43,12 @@ header a:hover {
 
 header h1 {
   font-family: 'title';
-  font-size: 5em;
-  margin: .1em 0 .2em;
+  font-size: 4em;
+  margin: .2em 0 .2em;
 }
 
 header h2 {
-  font-size: 1.6em;
+  font-size: 1.4em;
   margin: 0 0 1em 0;
   text-shadow: 2px 2px 0 black;
   color: rgb(245, 220, 228);
@@ -62,20 +63,21 @@ section h2 {
   font-weight: normal;
 }
 
-#content-wrapper {
-  margin: 0 1em;
-}
-
-#content {
+.content {
   margin: 0 auto;
   max-width: 1000px;
 }
 
 #bio {
   overflow: auto;
-  max-width: 800px;
   margin: 0 auto;
   display: relative;
+  padding: 1em 1em 0;
+  background: #040101;
+}
+
+#bio .content {
+  max-width: 800px;
 }
 
 #bio h1 {
@@ -93,26 +95,9 @@ section h2 {
   margin: 0 0 1em 1em;
 }
 
-#links a {
-  color: #ccc;
-  text-shadow: 1px 1px 0 #E5255F;
-  text-decoration: none;
-  font-size: 2.5em;
-}
-
-#links a:hover {
-  color: #E54676;
-  background-color: transparent;
-  text-shadow: 1px 1px 0 #FF6997;
-}
-
-#links i {
-  margin: .1em .1em .3em .2em;
-}
-
 #projects {
   overflow: auto;
-  background-color: #ccc;
+  background-color: #909690;
   color: #222;
   padding: 1em;
 }
@@ -164,6 +149,7 @@ section h2 {
 
 #more {
   margin: 1em 0;
+  padding: 0 1em;
 }
 
 #more .project {
@@ -171,10 +157,9 @@ section h2 {
 }
 
 footer {
-  padding: .3em 0;
+  padding: .3em 0 .6em;
   text-align: center;
   background-color: black;
-  margin: 0 0 .8em 0;
 }
 
 footer a {
@@ -193,20 +178,6 @@ footer a:hover {
 
   #me {
     margin-left: 3%;
-  }
-
-  #links, #articles {
-    float: left;
-  }
-
-  #articles {
-    max-width: 35%;
-  }
-
-  #links {
-    margin: 2em 0 0 4%;
-    max-width: 18%;
-    text-align: right;
   }
 
   #projects {
@@ -233,7 +204,7 @@ footer a:hover {
 
   #more {
     clear: left;
-    
+
   }
 
   #more-projects {

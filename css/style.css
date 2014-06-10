@@ -7,6 +7,7 @@ body {
   background-color: #111;
   background-image: url('../images/bg.png');
   background-position: 0 -32px;
+  background-attachment: fixed;
   color: #ccc;
   font-size: 14px;
 }
@@ -97,7 +98,7 @@ section h2 {
 
 #projects {
   overflow: auto;
-  background-color: #909690;
+  background-color: #B9BDB9;
   color: #222;
   padding: 1em;
 }

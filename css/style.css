@@ -124,8 +124,9 @@ section h2 {
   margin: .5em 0;
 }
 
-.project {
+#projects .project {
   overflow: auto;
+  min-height: 20em;
 }
 
 .project figure {
@@ -138,10 +139,6 @@ section h2 {
   margin: 0 1em 1em 0;
   border: solid transparent 3px;
   border-radius: 50%;
-}
-
-.project a:hover img {
-  border-color: #E27070;
 }
 
 .project p {
